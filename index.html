@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">To Do Organizer</h1><br>
+        <div class="row">
+            <div class="col-lg-8">
+                <div>
+                    <input type="text" id="input">
+                    <button id="add" onclick="addJob()">Add</button>
+                    <button id="updata" class="btn btn-primary d-none">Update</button>
+                    <input onkeyup="searchJob(this.value)" class="form-control w-75 mx-auto my-2" type="text" id="searchInput" placeholder="search"/>
+                </div>
+                <table>
+                    <thead>
+                        <th width="70%">Task</th>
+                        <th>Finish</th>
+                        <th>Delete</th>
+                    </thead>
+                    <tbody id="tablebody">
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="mt-5 py-5 col-lg-4">
+                <h5 class="bg-primary text-white py-2">Finished</h5>
+                <ol id="done" class="text-left">
+                    
+                </ol>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <script src="js/scipt.js"></script>
+</body>
+</html>

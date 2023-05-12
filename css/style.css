@@ -1,0 +1,52 @@
+.container {
+
+    text-align: center;
+    margin: 4rem auto;
+    box-shadow: 0 0 20px 10px black;
+    height: 80vh;
+    overflow: scroll;
+}
+.container>div{
+    margin: 10px;
+}
+table {
+    width: 100%;
+    
+}
+h1 {
+    color: brown;
+    margin: 50px 0;
+}
+th{
+    background-color: rgb(216, 24, 24);
+    padding: 3px;
+    color: white;
+}
+td {
+    padding: 4px;
+}
+input {
+    width: 50%;
+    margin: 0 10px;
+    padding: 5px;
+}
+#add {
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+#delete{
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    color: red;
+}
+
+td{
+    cursor: pointer;
+}
+
+

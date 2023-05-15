@@ -30,7 +30,7 @@ if (localStorage.getItem("all jobs") == null) {
     view = "";
     for (var i = 0; i < jobs.length; i++) {
       view += `<tr>
-                      <td onclick='updatetable(${i})'>${jobs[i]}</td>
+                      <td class="text-white" onclick='updatetable(${i})'>${jobs[i]}</td>
                       <td><button onclick='finish(${i})' class="btn btn-primary"><i class="fa-solid fa-check"></i></button></td>
                       <td><button onclick='deleteJob(${i})' class="btn btn-danger"><i class="fa-solid fa-trash-can"></i></button></td>
                   </tr>
@@ -74,7 +74,7 @@ if (localStorage.getItem("all jobs") == null) {
     for (let i = 0; i < jobs.length; i++) {
       if (jobs[i].toLowerCase().includes(value.toLowerCase())) {
         view += `<tr>
-                    <td onclick='updatetable(${i})'>${jobs[i]}</td>
+                    <td class="text-white" onclick='updatetable(${i})'>${jobs[i]}</td>
                     <td><button onclick='finish(${i})' class="btn btn-primary"><i class="fa-solid fa-check"></i></button></td>
                     <td><button onclick='deleteJob(${i})' class="btn btn-danger"><i class="fa-solid fa-trash-can"></i></button></td>
                 </tr>

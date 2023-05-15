@@ -1,10 +1,14 @@
 .container {
-
     text-align: center;
     margin: 4rem auto;
     box-shadow: 0 0 20px 10px black;
     height: 80vh;
-    overflow: scroll;
+}
+
+body {
+    background-color: #131722 !important;
+    color: #fff;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 .container>div{
     margin: 10px;
